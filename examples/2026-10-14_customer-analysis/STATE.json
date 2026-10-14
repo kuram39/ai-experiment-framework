@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-14T10:18:13+00:00",
+  "phase": "closed",
+  "current_run": "runs/20261014-101647_support-followup",
+  "current_artifacts": [
+    {
+      "id": "synthetic-customer-input",
+      "role": "current_input",
+      "path": "data/raw/customers.csv",
+      "sha256": "01b4bdcbb52612dc4edf0457207c7a0c7abd90d4e011a3470a43c918b7e3ce5e",
+      "produced_by": null
+    },
+    {
+      "id": "analysis-script",
+      "role": "code",
+      "path": "src/analyze.py",
+      "sha256": "132b6574b2a0334a8fa08421f33f1a2523a27b7867952dcf60491676c69a112b",
+      "produced_by": null
+    },
+    {
+      "id": "current-outcome",
+      "role": "canonical_output",
+      "path": "OUTCOME.md",
+      "sha256": "d9ce4a6df163c3d662ed5644d47563deaa606a91003c00319df4f34b4356422f",
+      "produced_by": "runs/20261014-101647_support-followup"
+    }
+  ],
+  "next_action": "If extending the demo, predeclare an uncertainty estimate or stratified comparison, then add a new run.",
+  "blockers": []
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "status": "completed",
+  "purpose": "Compare churn for customers with 2+ vs 0-1 recent support cases against the predeclared 10 percentage-point threshold.",
+  "started_at": "2026-10-14T10:16:47+00:00",
+  "duration_s": 0.03133,
+  "argv": ["python3", "src/analyze.py", "support"],
+  "runtime": {
+    "python": "CPython 3.14.7",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "dependencies": "Python standard library only"
+  },
+  "config": {"comparison": "2+ cases minus 0-1 cases", "primary_threshold": 0.1},
+  "seed": null,
+  "code": {"kind": "sha256", "revision": "132b6574b2a0334a8fa08421f33f1a2523a27b7867952dcf60491676c69a112b"},
+  "inputs": {"customers.csv": "01b4bdcbb52612dc4edf0457207c7a0c7abd90d4e011a3470a43c918b7e3ce5e"},
+  "outputs": ["metrics.json"]
+}

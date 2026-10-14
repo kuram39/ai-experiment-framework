@@ -1,0 +1,14 @@
+{
+  "comparison": "monthly minus annual churn rate",
+  "groups": {
+    "annual": {"n": 617, "churned": 59, "rate": 0.095624,
+      "rate_percent": 9.56},
+    "monthly": {"n": 583, "churned": 44, "rate": 0.075472,
+      "rate_percent": 7.55}
+  },
+  "difference": -0.020152,
+  "difference_percentage_points": -2.02,
+  "support_threshold_percentage_points": 5,
+  "threshold_met": false,
+  "interpretation": "Descriptive only; does not establish equivalence or causality."
+}

@@ -1,0 +1,74 @@
+# {{TITLE}}
+
+Status: open · založeno {{DATE}} · naposledy ověřeno {{DATE}}
+
+> Trvalé závěry jsou v [OUTCOME.md](OUTCOME.md). Tento soubor vlastní zadání,
+> aktuální lidský stav, navigaci a reprodukci — ne výsledkovou syntézu. Jakmile
+> vznikne první vyvíjený kanonický artefakt, jeho přesnou současnou identitu
+> převezme `STATE.json`.
+
+{{REGISTRATION_SECTION}}## Výzkumná otázka
+
+{{QUESTIONS}}
+
+## Hypotéza
+
+{{HYPOTHESIS}}
+
+## Rozsah
+
+**Uvnitř experimentu:** {{IN_SCOPE}}
+
+**Mimo rozsah:** {{OUT_OF_SCOPE}}
+
+## Vyhodnocovací kontrakt
+
+Kontrakt musí být uzavřen před prvním autoritativním během.
+
+| položka | definice |
+|---|---|
+| baseline | {{BASELINE}} |
+| primární metrika / úsudek | {{PRIMARY_EVALUATION}} |
+| podpůrné metriky | {{SUPPORTING_EVALUATION}} |
+| podpora hypotézy | {{SUPPORT_CRITERION}} |
+| zamítnutí hypotézy | {{REJECT_CRITERION}} |
+| neprůkazný výsledek | {{INCONCLUSIVE_CRITERION}} |
+
+## Vstupy
+
+Při založení nebyl zaregistrován žádný skutečný vstup. Jakmile vznikne první,
+zapiš jeho účel, původ nebo verzi, integritu, citlivost a omezení sdílení.
+
+## Aktuální stav
+
+**Fáze:** discovery
+
+**Poslední ověřený stav:** Inicializována minimální struktura experimentu;
+zatím neexistuje autoritativní běh ani věcný výsledek.
+
+**Nejbližší krok:** {{NEXT_STEP}}
+
+**Blokery:** Nezjištěno při automatickém založení; doplň podle aktuálního kontextu.
+
+`STATE.json` zatím nevznikl, protože experiment nemá žádný kanonický artefakt
+ani autoritativní běh. Založ jej při první propagaci kandidáta do aktuálního
+stavu; nevytvářej prázdnou kostru.
+
+## Reprodukce
+
+Zatím není co reprodukovat. S prvním spustitelným skriptem doplň runtime,
+závislosti, názvy potřebných proměnných prostředí bez hodnot a skutečně ověřené
+příkazy spuštěné z kořene experimentu.
+
+## Layout a kanonické artefakty
+
+| cesta | role | co ji zneplatní |
+|---|---|---|
+| [README.md](README.md) | zadání, stav, navigace a reprodukce | změna otázky, rozsahu nebo pracovního postupu |
+| [OUTCOME.md](OUTCOME.md) | kanonická syntéza odpovědí | nový autoritativní důkaz |
+
+Kanonická data a kód později udržuj pod stabilními sémantickými cestami.
+Kandidát nejdřív ověř, potom současnou cestu nahraď a aktualizuj `STATE.json`;
+nevytvářej sourozence `v2`, `final` nebo `latest`.
+
+<!-- generated-by: create-experiment {{GENERATOR_VERSION}} -->

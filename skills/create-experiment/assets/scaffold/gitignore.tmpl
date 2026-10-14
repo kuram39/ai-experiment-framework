@@ -1,0 +1,27 @@
+# Secrets. Bezpečný vzor lze trackovat jako .env.example.
+.env
+.env.*
+!.env.example
+
+# Lokální pracovní stopa a volně přepočitatelné mezistavy.
+.scratch/
+data/interim/
+
+# Python.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# JavaScript. V synchronizovaném stromu patří fyzicky mimo něj a sem jen symlink.
+node_modules/
+
+# Agentní worktrees patří v synchronizovaném stromu mimo něj a sem jen symlink.
+.claude/worktrees/
+
+# OS a editory.
+.DS_Store
+*.swp

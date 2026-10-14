@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-14",
+  "purpose": "Fixed, wholly synthetic input for the customer churn framework demonstration.",
+  "acquisition": "generated",
+  "source": "src/generate_data.py; Python random.Random seed 20261014",
+  "source_created_at": "2026-10-14",
+  "sensitivity": "synthetic",
+  "sharing": "Public example data; contains no real customer records.",
+  "license_or_terms": "Generated synthetic data included under the repository MIT License.",
+  "generation": {
+    "command": "python3 src/generate_data.py",
+    "generator_sha256": "023e5f49fcae211a4e4ff134429d0738c9fadeb97cbb739ef8d2a43780b32504",
+    "runtime": "CPython 3.14.7"
+  },
+  "files": {
+    "customers.csv": {
+      "bytes": 36458,
+      "sha256": "01b4bdcbb52612dc4edf0457207c7a0c7abd90d4e011a3470a43c918b7e3ce5e",
+      "records": 1200
+    }
+  },
+  "retired": []
+}

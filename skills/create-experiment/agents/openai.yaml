@@ -1,0 +1,4 @@
+interface:
+  display_name: "Create or Continue Experiment"
+  short_description: "Create or continue a durable experiment"
+  default_prompt: "Use $create-experiment to create or continue a local experiment with the canonical structure."

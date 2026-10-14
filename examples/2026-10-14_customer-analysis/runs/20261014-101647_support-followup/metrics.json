@@ -1,0 +1,14 @@
+{
+  "comparison": "2+ support cases minus 0-1 cases churn rate",
+  "groups": {
+    "0-1 cases": {"n": 949, "churned": 36, "rate": 0.037935,
+      "rate_percent": 3.79},
+    "2+ cases": {"n": 251, "churned": 67, "rate": 0.266932,
+      "rate_percent": 26.69}
+  },
+  "difference": 0.228997,
+  "difference_percentage_points": 22.90,
+  "support_threshold_percentage_points": 10,
+  "threshold_met": true,
+  "interpretation": "Descriptive association only; does not establish causality."
+}
